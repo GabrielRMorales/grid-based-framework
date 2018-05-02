@@ -1,0 +1,188 @@
+/* Custom framework styling */
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Fjalla+One');
+
+:root {
+	--full-width: 100%;
+	--easy-padding: 0 5px;
+	--good-fonts: "Arial","Helvetica", "Times", serif, sans-serif;
+	--auto-height: auto;
+}
+
+html, body {
+	margin:0;
+	width:var(--full-width);
+}
+
+
+main, header, footer {
+	margin: 0 auto 0 5%;
+	width: 90%;
+	min-width: 900px;
+}
+main {
+	background-color: #d5f4e6;
+}
+header, footer {
+	background-color: #618685;
+}
+figcaption {
+	font-size: 16px;
+	padding: 10px 0;
+	font-weight: bold;
+}
+
+nav {
+	min-height: 100px;
+	height:var(--auto-height);
+	width: var(--full-width);
+	
+}
+
+.horizontal-nav {
+	width: var(--full-width);
+	
+}
+.horizontal-ul {
+	padding: 5% 0 3% 0;
+	height: 30%;
+}
+.horizontal-li {
+	display: inline-block;
+	padding-right: 5%;
+	list-style-type: none;
+	border-right: 1px solid black;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+button {
+	border-radius: 7px;
+	background-color: #00FFFF;
+	color: white;
+}
+.keep-float-inside-div:after {
+	content: "";
+	clear: both;
+	display: block;
+
+}
+.right {
+	float:right;
+}
+
+.left {
+	float: left;
+}
+.clear-right {
+	clear: right;
+}
+
+.clear-left {
+	clear: left;
+}
+.clear {
+	clear: both;
+}
+h1,h2,h3,.headline-description, header, footer {
+	text-align: center;
+}
+
+/* font changes */
+.headline-background {
+	background-color: red;
+}
+h1 {
+		font-family: 'Cinzel',var(--good-fonts);
+		font-size: 2.75em;
+	}
+h2 {
+		font-family: var(--good-fonts);
+		font-size: 2em;
+	}
+
+h3 {
+		font-family: var(--good-fonts);
+		font-size: 1.5em;
+	}
+.headline-description {
+		font-family: 'Fjalla One',var(--good-fonts);
+		font-style: italic;
+		font-size: 20px;
+		color: gray;
+	}
+
+/* grid-system */
+.container {
+	width: var(--full-width);
+	height:var(--auto-height);
+	background-color: white;
+}
+.one-third {
+	padding-top: 3%;
+	display: inline-block;
+	width: 30%;
+	height: var(--auto-height);
+}
+.one-third-content {
+	padding: var(--easy-padding);
+}
+
+.one-half {
+	padding-top: 3%;
+	display: inline-block;
+	width: 49%;
+	height: var(--auto-height);
+}
+.one-half-content {
+	padding: var(--easy-padding);
+}
+.one-fourth {
+	padding-top: 3%;
+	display: inline-block;
+	width: 24%;
+	height: var(--auto-height);
+}
+.one-fourth-content {
+	padding: var(--easy-padding);
+}
+
+.one-sixth {
+	padding-top: 3%;
+	display: inline-block;
+	width: 15%;
+	height: var(--auto-height);
+}
+
+.one-sixth-content {
+	padding: var(--easy-padding);
+}
+
+.responsive-img {
+	padding: 5px;
+	display: block;
+	margin: 0 auto;
+	height: 55%;
+	width: 55%;
+	min-width: 150px;
+	min-height:150px;
+}
+
+.one-twelfth {
+	padding-top: 3%;
+	display: inline-block;
+	width: 7%;
+	height: var(--auto-height);
+}
+
+.one-twelfth-content {
+	padding: 0 2px;
+	font-size: .75vmax;
+	
+}
+.one-twelfth-content .headline-description {
+	font-size: 1vmax;
+}
+.one-twelfth-content img {
+	min-width: 50px;
+	min-height:50px;
+}
