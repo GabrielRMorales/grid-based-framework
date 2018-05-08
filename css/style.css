@@ -120,6 +120,7 @@ h3 {
 		font-style: italic;
 		font-size: 20px;
 		color: #ada397;
+		padding: 2% 0;
 	}
 
 /* grid-system */
@@ -328,6 +329,17 @@ main, header, footer {
 	box-shadow: 0 0 8px #888888;
 	padding: 12px;
 }
+button {
+	box-shadow: 0 0 8px #888888;
+	background-color: #cc9543;
+	height: 50px;
+	width: 25%;
+}
+.headline-description {
+	display: inline-block;
+	width: 60%;
+	text-align: center;
+}
 #thinkful {
 	display: inline-block;
 	text-align: left;
@@ -344,3 +356,31 @@ footer {
 	margin-top: 5%;
 	height: 250px;
 }
+
+@media (max-width:981px) {
+	#side-info {
+		display: none;
+	}
+	.two-thirds, .three-fourths {
+		width: 75%;
+		margin-left: 12%;
+		margin-bottom: 50px;
+	}
+	#additional button {
+		width:75%;
+		margin: 0 12%;
+		float: none;
+	}
+	#thinkful,#thinkful-ul {
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+		float:none;
+	}
+	.headline-description {
+		margin-left: 21%;
+	}
+
+}
+
+@media (max-width:641px) {}
