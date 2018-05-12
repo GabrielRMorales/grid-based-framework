@@ -275,127 +275,7 @@ h3 {
 .offset-6 {
 	margin-left: 49%;
 }
-/* media queries */
-@media only screen and (max-width : 768px){
-main, header, footer {
-	margin: 0 auto 0 10%;
-	width: 75%;
-}
-.container {
-	display: block;
-	height:var(--auto-height);
-	background-color: white;
-}
-.one-third, .one-fourth {
-	width: 45%;
-}
-.one-sixth {
-	width: 30%;
-}
-.one-sixth h1 {
-	font-size: 2em;
-}
-.one-twelfth {
-	width: 23%
-}
 
-}
-@media only screen and (min-width: 642px) and (max-width:981px) {
-	#side-info {
-		display: none;
-	}
-	main,header, footer {
-		width: 90%;
-		margin-left: 6%;
-	}
-	.two-thirds, .three-fourths {
-		width: 75%;
-		margin: 0 6% 50px 6%;
-	}
-	.one-half-centered {
-		margin-left: 6%;
-	}
-	#additional button {
-		width:75%;
-		margin: 0 12%;
-		float: none;
-	}
-	#thinkful,#thinkful-ul {
-		display: block;
-		text-align: center;
-		margin: 0 auto;
-		float:none;
-	}
-	.headline-description {
-		margin-left: 21%;
-	}
-	footer .one-third {
-		width: 30%;
-	}
-
-}
-
-
-@media only screen and (min-width: 481px) and (max-width:641px) {
-	footer {
-		height: 150px;
-	}
-	footer .hide {
-		display: none;
-	}
-	footer .one-third {
-		width: 48%;
-		margin-left: 0;
-	}
-}
-
-@media only screen and (max-width: 480px) {
-main, header, footer {
-	width: var(--full-width);
-	margin:0;
-}
-.one-half, .one-third,.one-fourth,.one-sixth {
-	width: 90%;
-}
-.one-twelfth {
-	width: 100%;
-	height: 75px;
-	border-bottom: 2px solid gray;
-}
-
-.one-twelfth img {
-	float:left;
-	width: 75px;
-	height:50px;
-}
-.one-twelfth h1,h2,h3 {
-	font-size:3em;
-	padding-bottom: 5px;
-}
-.one-twelfth .headline-description {
-	font-size: 12px;
-}
-.one-twelfth-content {
-	margin-left: 12%;
- 	float: left;
-}
-
-/* Custom Styles */
-
-	h2,h3 {
-		font-size: 1.5em;
-	}
-	footer .hide {
-		display: none;
-	}
-	.extra-links {
-		display: none;
-	}
-	.one-third {
-		width: 75%;
-	}
-
-}
 
 /* CUSTOM STYLES CAN GO HERE */
 .two-thirds,.two-thirds>h3 {
@@ -458,5 +338,146 @@ footer .container {
 footer .one-third {
 	padding: 0;
 }
+
+/* media queries */
+@media only screen and (max-width:981px) {
+	#side-info {
+		display: none;
+	}
+	main,header, footer {
+		width: 90%;
+		margin-left: 6%;
+	}
+	.two-thirds, .three-fourths {
+		width: 75%;
+		margin: 0 6% 50px 6%;
+	}
+	.one-half-centered {
+		margin-left: 6%;
+	}
+	#additional button {
+		width:75%;
+		margin: 0 12%;
+		float: none;
+	}
+	#thinkful,#thinkful-ul {
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+		float:none;
+	}
+	.headline-description {
+		margin-left: 21%;
+	}
+	footer .one-third {
+		width: 30%;
+	}
+
+}
+
+@media only screen and (max-width : 768px){
+main, header, footer {
+	background-color: green;
+	margin: 0 auto 0 10%;
+	width: 75%;
+}
+.container {
+	display: block;
+	height:var(--auto-height);
+	background-color: white;
+}
+.one-third, .one-fourth {
+	width: 45%;
+}
+.one-sixth {
+	width: 30%;
+}
+.one-sixth h1 {
+	font-size: 2em;
+}
+.one-twelfth {
+	width: 23%
+}
+
+	footer {
+		padding-top: 25px;
+		height: 150px;
+	}
+	footer .hide {
+		display: none;
+	}
+	footer .one-third {
+		width: 48%;
+		margin-left: 0;
+	}
+}
+
+
+@media only screen and (max-width:641px) {
+	.two-thirds {
+		width: 85%;
+	}
+	footer {
+		background-color: red;
+		height: 150px;
+	}
+	footer .hide {
+		display: none;
+	}
+	footer .one-third {
+		width: 48%;
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+main, header, footer {
+	background-color: blue;
+	width: var(--full-width);
+	margin:0;
+}
+.one-half, .one-third,.one-fourth,.one-sixth {
+	width: 90%;
+}
+.one-twelfth {
+	width: 100%;
+	height: 75px;
+	border-bottom: 2px solid gray;
+}
+
+.one-twelfth img {
+	float:left;
+	width: 75px;
+	height:50px;
+}
+.one-twelfth h1,h2,h3 {
+	font-size:3em;
+	padding-bottom: 5px;
+}
+.one-twelfth .headline-description {
+	font-size: 12px;
+}
+.one-twelfth-content {
+	margin-left: 12%;
+ 	float: left;
+}
+
+/* Custom Styles */
+
+	h2,h3 {
+		font-size: 1.5em;
+	}
+	footer .hide {
+		display: none;
+	}
+	.extra-links {
+		display: none;
+	}
+	.one-third {
+		width: 75%;
+	}
+
+}
+
 
 
