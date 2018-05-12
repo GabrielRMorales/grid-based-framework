@@ -377,7 +377,6 @@ footer .one-third {
 
 @media only screen and (max-width : 768px){
 main, header, footer {
-	background-color: green;
 	margin: 0 auto 0 10%;
 	width: 75%;
 }
@@ -398,18 +397,24 @@ main, header, footer {
 .one-twelfth {
 	width: 23%
 }
-
-	footer {
-		padding-top: 25px;
-		height: 150px;
+#thinkful-ul li {
+		display: block;
+		font-size: 1.4em;
+		padding: 15px 0;
 	}
-	footer .hide {
+footer {
+		margin-top: 25px;
+		height: 150px;
+		font-size: 125%;
+	}
+footer .hide {
 		display: none;
 	}
-	footer .one-third {
+footer .one-third {
 		width: 48%;
 		margin-left: 0;
 	}
+	
 }
 
 
@@ -417,8 +422,11 @@ main, header, footer {
 	.two-thirds {
 		width: 85%;
 	}
+	#additional button {
+		min-width: 250px;
+		margin: 0 9%;
+	}
 	footer {
-		background-color: red;
 		height: 150px;
 	}
 	footer .hide {
@@ -432,7 +440,6 @@ main, header, footer {
 
 @media only screen and (max-width: 480px) {
 main, header, footer {
-	background-color: blue;
 	width: var(--full-width);
 	margin:0;
 }
@@ -463,7 +470,13 @@ main, header, footer {
 }
 
 /* Custom Styles */
-
+	footer {
+		margin-top: 25px;
+		height: auto;
+	}
+	footer .container {
+		height: 45px;
+	}
 	h2,h3 {
 		font-size: 1.5em;
 	}
