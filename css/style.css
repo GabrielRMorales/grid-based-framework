@@ -300,7 +300,54 @@ main, header, footer {
 }
 
 }
+@media only screen and (min-width: 642px) and (max-width:981px) {
+	#side-info {
+		display: none;
+	}
+	main,header, footer {
+		width: 90%;
+		margin-left: 6%;
+	}
+	.two-thirds, .three-fourths {
+		width: 75%;
+		margin: 0 6% 50px 6%;
+	}
+	.one-half-centered {
+		margin-left: 6%;
+	}
+	#additional button {
+		width:75%;
+		margin: 0 12%;
+		float: none;
+	}
+	#thinkful,#thinkful-ul {
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+		float:none;
+	}
+	.headline-description {
+		margin-left: 21%;
+	}
+	footer .one-third {
+		width: 30%;
+	}
 
+}
+
+
+@media only screen and (min-width: 481px) and (max-width:641px) {
+	footer {
+		height: 150px;
+	}
+	footer .hide {
+		display: none;
+	}
+	footer .one-third {
+		width: 48%;
+		margin-left: 0;
+	}
+}
 
 @media only screen and (max-width: 480px) {
 main, header, footer {
@@ -333,6 +380,20 @@ main, header, footer {
  	float: left;
 }
 
+/* Custom Styles */
+
+	h2,h3 {
+		font-size: 1.5em;
+	}
+	footer .hide {
+		display: none;
+	}
+	.extra-links {
+		display: none;
+	}
+	.one-third {
+		width: 75%;
+	}
 
 }
 
@@ -389,7 +450,6 @@ footer {
 	margin-top: 5%;
 	height: 250px;
 }
-/*fix */
 
 footer .container {
 	padding-top: 25px;
@@ -399,63 +459,4 @@ footer .one-third {
 	padding: 0;
 }
 
-@media only screen and (max-width:981px) {
-	#side-info {
-		display: none;
-	}
-	main,header, footer {
-		width: 90%;
-		margin-left: 6%;
-	}
-	.two-thirds, .three-fourths {
-		width: 75%;
-		margin: 0 6% 50px 6%;
-	}
-	.one-half-centered {
-		margin-left: 6%;
-	}
-	#additional button {
-		width:75%;
-		margin: 0 12%;
-		float: none;
-	}
-	#thinkful,#thinkful-ul {
-		display: block;
-		text-align: center;
-		margin: 0 auto;
-		float:none;
-	}
-	.headline-description {
-		margin-left: 21%;
-	}
-	footer .one-third {
-		width: 30%;
-	}
 
-}
-@media only screen and (min-width: 481px) and (max-width:641px) {
-	footer {
-		height: 150px;
-	}
-	footer .hide {
-		display: none;
-	}
-	footer .one-third {
-		width: 48%;
-		margin-left: 0;
-	}
-}
-@media only screen and (max-width: 480px) {
-	h2,h3 {
-		font-size: 1.5em;
-	}
-	footer .hide {
-		display: none;
-	}
-	.extra-links {
-		display: none;
-	}
-	.one-third {
-		width: 75%;
-	}
-}
