@@ -15,7 +15,12 @@
 			<nav class="horizontal-nav">
 				<ul class="horizontal-ul right">
 					<li class="horizontal-li">Curriculum</li>
-					<li class="horizontal-li">Community</li>
+					<li class="horizontal-li dropdown">Community
+						<ul class="dropdown-content">
+							<li><a href="#">Forum</a></li>
+							<li><a href="#">Chat</a></li>
+						</ul></li>
+
 				</ul>
 			</nav>
 		</header>
@@ -90,9 +95,11 @@
 					<div class="three-fourths offset-2">
 						<h1>HTML5 and CSS3</h1>
 						<h2>PROJECT: DESIGN YOUR OWN GRID-BASED FRAMEWORK</h2>
-						<button >View Course</button>
-						<button class="one-half-centered">Complete</button>
-						<button class="right">Next Lesson</button>
+						<div id="course-view">
+							<button class="one-third">View Course</button>
+							<button class="one-third">Complete</button>
+							<button class="one-third">Next Lesson</button>
+						</div>
 					</div>
 
 					<div class="three-fourths offset-2">
@@ -119,18 +126,20 @@
 		</main>
 		<footer>
 			<div class="container">
-			<div class="one-third">
+			<div class="one-third hide">
 				<p class="title left">The Odin Project</p>
 			</div>
+
 			<div class="one-third">
 				<ul>
 					<li class="horizontal-li">Github</li>
-					<li class="horizontal-li">Facebook</li>
-					<li class="horizontal-li">Twitter</li>
+					<li class="horizontal-li ">Facebook</li>
+					<li class="horizontal-li ">Twitter</li>
 				</ul>
 			</div>
-			<div class="one-third">
-				<div class="container">
+
+			<div class="one-third extra-links">
+				<div class="">
 					<div class="one-third">
 					<ul>
 						<li>About</li>
@@ -141,7 +150,7 @@
 					<div class="one-third">
 					<ul>
 						<li>Success Stories</li>
-						<li >Terms of Service</li>
+						<li>Terms of Service</li>
 						<li>Contribute</li>
 					</ul>
 					</div>
